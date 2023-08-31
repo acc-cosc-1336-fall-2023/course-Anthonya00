@@ -1,9 +1,21 @@
-import unittest
+def test_operator_precedence_1
 
-from src.examples.a_example.devprocess import add_numbers
 
-class Test_Config(unittest.TestCase):
+print(result)
+reult = devprocess.square_value(5)
 
-    def test_add_numbers_2(self):
-        self.assertEqual(2, add_numbers(1, 1))
+print(result) 
 
+input('get value')
+
+print(result)
+
+result = input (get a value to square ' )
+reult = int(result)
+
+result = devprcess.square_value(result)'
+
+
+
+
+      )
