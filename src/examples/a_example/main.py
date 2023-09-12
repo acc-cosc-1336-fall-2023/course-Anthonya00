@@ -18,7 +18,15 @@ def test_floating_point_dibision_1(self):
 
     reults   = devprocess.floating_point_divsion(5, 2) 
 
+result = decisions.is_overtime(40)
+
+If(result== False):
+    print('40 is not overtime')
     
+    if (result):
+    print('is overtime')
+    else:
+        print("not overtime")
 
 
 
