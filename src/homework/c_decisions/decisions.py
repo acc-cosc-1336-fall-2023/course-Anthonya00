@@ -14,4 +14,4 @@ def get_faculty_rating(ratio):
         rating = "Needs Improvement"
     elif ratio >= 0 and ratio < 0.59:
         rating = "Unacceptable"
-    return rating 
+    return rating

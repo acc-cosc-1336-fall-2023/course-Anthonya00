@@ -15,4 +15,4 @@ class Test_Config(unittest.TestCase):
         self.assertEqual(get_faculty_rating(0.66), "Needs Improvement")
         self.assertEqual(get_faculty_rating(0.45), "Unacceptable")
 if __name__ == "__main__":
-    unittest.main()    
+    unittest.main()   
