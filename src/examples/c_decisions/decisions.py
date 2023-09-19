@@ -1,7 +1,7 @@
 def is_overtime(hours):
-result =False
-result = hours > 40
-return result 
+    result = False
+    result = hours > 40
+    return result 
 
 
 def get_letter_grade(grade): 
@@ -47,3 +47,5 @@ def handle_menu_option(option):
 
 def selected_option_1():
     print user selected option 1
+
+

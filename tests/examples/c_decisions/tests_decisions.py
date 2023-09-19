@@ -1,6 +1,6 @@
 import unittest
 
-from src.examples.c_decisions.decisions import test_config
+from src.examples.c_decisions.decisions import get_letter_grade, test_config
 
 class Test_Config(unittest.TestCase):
 
