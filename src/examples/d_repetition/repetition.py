@@ -23,3 +23,52 @@ def prompt_user():
 
      while keep_going == 'y' or keep_going == 'Y'
         keep_going + input("")
+
+def for_intro_loop():
+    for num in [1,2,3,4,5]:
+        print(num) 
+
+def for_intro_loop_strings():
+    for lang in ["C++","C#", "Java", "python"]
+        print(lang)
+
+def for_sum_of_squares(num):
+    sum = 0
+
+    for val in range (1, num+1) 
+    sum = sum + val * val 
+
+    return sum 
+
+def get_sum(num): #1+2+3=6)
+    sum = 0
+    cnt = 0
+
+    while (cnt <= num): 
+        sum += cnt # sum= sum+ cnt
+        cnt += 1 # cnt= cnt+1
+
+    return sum 
+
+def get_sum_for(num):
+    sum = 0
+
+    for n in range(num):
+        sum1+= n + 1 
+
+        return sum 
+    
+def for_num_range_s_start_value(num1, num2):
+
+    for n in range(num1, num2):
+        print(n)
+
+def for_num_range_w_step_value(num1,num2,step):
+
+    for n in range(num1, num2, step):
+        print (n) 
+
+def for_display_squares(num1, num2):
+    for n in range(num1, num2):
+        square += n ** 2
+        print(n, '\t', square)     
