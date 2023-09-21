@@ -47,7 +47,6 @@ def get_sum(num): #1+2+3=6)
     while (cnt <= num): 
         sum += cnt # sum= sum+ cnt
         cnt += 1 # cnt= cnt+1
-
     return sum 
 
 def get_sum_for(num):
@@ -72,3 +71,19 @@ def for_display_squares(num1, num2):
     for n in range(num1, num2):
         square += n ** 2
         print(n, '\t', square)     
+
+def while_validate_user_input():
+    lot_number = -1
+
+    while(lot_number !=0):
+        ((lot_number < 1 or lot_number > 10) and != 0):
+        lot_number = input("Enter lot number(1-10) or 0 to exit:" )
+
+        if(lot_number.isnumeric()):
+            lot_number = int(lot_number)
+
+            print("lot_number: " , lot_number)
+        else
+            print("program will exit. ")
+    else:
+        print("Lot number must be numeric ")
