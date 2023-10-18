@@ -23,3 +23,18 @@ class Test_Config(unittest.TestCase):
         print("before",id(list1))
         get_list_return_value(list1)
         self.assertEqual(list1,[0,10,20])
+
+
+    def test_list_slicing_start_end(self):
+        days = ['sunday, 'monday','tuesday', wednesday, thursday, friday, saturday ]
+            
+        self.assertEqual(days[2:5],[3,4,5])
+    
+    def test_list_slicing_w_step(self):
+        list = [1,2,3,4,5,6,7,8,10]
+
+        self.assertEqual(list[1:8:2],[2,3,6,8])
+
+      def test_list_slicing_start_end(self):
+        list = [1,2,3,4,5,6,7,8,10]
+        self.assertEqual(list[-5:],[6,7,8,9,10])
