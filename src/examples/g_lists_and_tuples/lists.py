@@ -70,8 +70,19 @@ def get_list_return_value(list1):
 
     return list1
 
+def search_for_item_in_list(item,list1):
+    return item in list1
 
+def get_multiplication_table(max_value):
+    table = []
 
+    for r in range (1, max_value + 1)
+        row = []
 
+        for c in range(1, max_value + 1):
+            row.append(r * c)
 
+        table.append(row)
+        
+    return table 
 

@@ -26,7 +26,7 @@ class Test_Config(unittest.TestCase):
 
 
     def test_list_slicing_start_end(self):
-        days = ['sunday, 'monday','tuesday', wednesday, thursday, friday, saturday ]
+        days = ['sunday, monday,tuesday, wednesday, thursday, friday, saturday' ]
             
         self.assertEqual(days[2:5],[3,4,5])
     
@@ -35,6 +35,70 @@ class Test_Config(unittest.TestCase):
 
         self.assertEqual(list[1:8:2],[2,3,6,8])
 
-      def test_list_slicing_start_end(self):
+    def test_list_slicing_start_end(self):
         list = [1,2,3,4,5,6,7,8,10]
         self.assertEqual(list[-5:],[6,7,8,9,10])
+
+
+    def search_for_item_in_list(self):
+        prod_nums =[]
+
+
+    def test_list_copy_doesnt_create_another_list(self):
+        list1 = [1,2,3,4]
+        list2 = list1
+
+        list2 [0] = 0
+        self.assertEqual (list1,list2)
+
+        list2[0] = 0 
+
+        self.assertEqual(list1 === list2,True)
+        self.assertEqual()
+        self.assertEqual
+        self.assertEqual
+        
+    def test_create_list_from_existing_list(self):
+        list1 = [1,2,3,4]
+        list2 = []#empty list
+
+        for i in range(0,len(list1)):
+            list2.append(list1[i])
+
+        self.assertEqual (list1 )
+
+
+
+    def test_create_list_from_extisting_list_conc(self):
+            list1 = [1,2,3,4]
+            A
+            
+    def test_list_find_item_at_index(self):
+            list1 = [1,2,3,4]
+        
+            self.assertEqual(list1.index(2,1))
+
+    def test_insert_item_at_index(self):
+            list1 = [1,2,3,4,]
+            list1.insert(2, 5)
+            print(list1)
+
+            self.assertEqual(list1(list1[2] ==5, True))
+                            
+
+    def test_del_list_item(self):
+        list = [1,2,3,4,5,6,7,8,9,10]
+        del list[2]
+
+        self.assertEqual(list == [1,2,3,4,5,6,7,8,9,10],True)              
+                            
+
+    def test_get_max_from_list(self):
+        list = [1,2,3,4,5,6,7,8,9,10]
+        self.assertEqual(max(list),10)
+
+    
+    def test_get_min_from_list(self):
+        list = [1,2,3,4,5,6,7,8,9,10]
+
+        self.assertEqual(min(list),1)
