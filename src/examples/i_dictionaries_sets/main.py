@@ -8,8 +8,11 @@ value =input("Enter value: ")
 
 phonebook[key] = value
 
-print(phonebook[key])
+print(phonebook)
 
-del phonebook[key]
+key = input ("Enter key: ")
+value =input("Enter value: ")
+
+phonebook[key] = value
 
 print(phonebook)
