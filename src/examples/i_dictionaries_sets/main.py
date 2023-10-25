@@ -3,16 +3,9 @@ import dictionaries
 #main program
 phonebook = {}#empty dictionary
 
-key = input ("Enter key: ")
-value =input("Enter value: ")
+dictionaries.add_friend_phonebook('Chris','555-1111', phonebook)
+dictionaries.add_friend_phonebook('Chris','555-1111', phonebook)
 
-phonebook[key] = value
 
-print(phonebook)
-
-key = input ("Enter key: ")
-value =input("Enter value: ")
-
-phonebook[key] = value
-
-print(phonebook)
+for name,value in phonebook.items():
+    print(name,value)
