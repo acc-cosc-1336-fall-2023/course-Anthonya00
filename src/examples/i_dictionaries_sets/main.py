@@ -1,11 +1,16 @@
 import dictionaries
-
+import sets 
 #main program
-phonebook = {}#empty dictionary
 
-dictionaries.add_friend_phonebook('Chris','555-1111', phonebook)
-dictionaries.add_friend_phonebook('Chris','555-1111', phonebook)
+myset = set('abc')
 
+print (myset)
 
-for name,value in phonebook.items():
-    print(name,value)
+myset.add('d')
+
+print (myset)
+
+for item in myset:
+    print(item)
+
+    
