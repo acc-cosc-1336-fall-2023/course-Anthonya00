@@ -1,6 +1,6 @@
 import unittest
 
-from src.examples.i_dictionaries_sets.dictionaries import add_friend_phonebook, is_key_in_dictionary, test_config, update_friend_phonebook
+from src.examples.i_dictionaries_sets.dictionaries import add_friend_phonebook, delete_friend_phonebook, is_key_in_dictionary, test_config, update_friend_phonebook
 
 class Test_Config(unittest.TestCase):
 
