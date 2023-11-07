@@ -10,4 +10,6 @@ import files
 #files.read_from_file_for('names.txt')
 #files.write_sales_data('sales.txt', 'a')
 #files.read_sales_data('sales.txt')
-files.read_field
+#files.read_field 
+#files.write_city_list_file('cities.txt')
+files.read_city_list_file('cities.txt')
