@@ -1,17 +1,18 @@
 import bank_account,atm
 
+list_account = []
+
 account = bank_account.BankAccount(50)
-account.__get_balance_from_db()
 
-#print(account.get_balance())
-my_atm = atm.ATM(account)
+list_account.append(account)
 
-menu.run_menu(my_atm)
+account = bank_account.BankAccount(50)
 
-#print(account.get_balance())
+list_account.append(account)
 
-#my_atm.make_deposit()
-#my_atm.display_balance()
+account = bank_account.BankAccount(50)
 
-#my_atm.make_withdraw()
-#my_atm.display_balance
+list_account.append(account)
+
+for account in list_account:
+    print (account)
